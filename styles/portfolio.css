@@ -31,7 +31,7 @@
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    margin: 0px 38px 0px 23px;
+    margin: 0px 0px 0px 23px;
 }
 /* nav styles */
 nav{
