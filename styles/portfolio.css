@@ -26,6 +26,13 @@
     border: none;
 }
 
+/* header */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 0px 38px 0px 23px;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -52,5 +59,31 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
+}
 
+/* banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+}
+.banner-profile-pic {
+    width: 580px;
 }
